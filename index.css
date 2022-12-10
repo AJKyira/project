@@ -34,11 +34,29 @@ form {
   background-color: #28a745;
   border-color: #28a745;
 }
+.temperature {
+  font-size: 40px;
+}
 
+.units {
+  position: relative;
+  top: -15px;
+}
 ul {
   display: block;
   list-style-type: none;
   margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 16rem;
+  margin-top: 10px auto;
+  padding: auto;
+}
+
+a:active {
+  color: purple;
 }
 
 div {
